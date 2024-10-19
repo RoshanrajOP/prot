@@ -1,8 +1,8 @@
 import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
+import content from '../../assets/contentgenerator.png';
+import codeeditor from '../../assets/codeeditoride.png';
+import todo from '../../assets/todoapp.png';
+import coursebuilder from '../../assets/coursebuilder.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -11,28 +11,28 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Viberr"
-          p="Streaming App"
+          src={content}
+          link="https://github.com/RoshanrajOP/content-generator"
+          h3="Content Generator"
+          p="Content Generator App"
         />
         <ProjectCard
-          src={freshBurger}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          src={codeeditor}
+          link="https://github.com/RoshanrajOP/code-editor"
+          h3="Code Editro IDE"
+          p="collaborative code editor"
         />
         <ProjectCard
-          src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
+          src={todo}
+          link="https://github.com/RoshanrajOP/Todo-app"
+          h3="TODO APP"
+          p="Todo app"
         />
         <ProjectCard
-          src={fitLift}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="FitLift"
-          p="Fitness App"
+          src={coursebuilder}
+          link="https://github.com/RoshanrajOP/Course-builder"
+          h3="Course Builder"
+          p="Task assigning App"
         />
       </div>
     </section>
